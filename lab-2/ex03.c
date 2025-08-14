@@ -24,9 +24,8 @@ int main()
     printf("Enter your gender: ");
     scanf(" %c", &gender);
 
-    getchar();
     printf("Enter your Education Qualification: ");
-    scanf(" %s[^\n]",education);
+    scanf(" %[^\n]",education);
 
     printf("\nName: %s\n", name);
     printf("Age: %d\n", age);
